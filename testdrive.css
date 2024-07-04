@@ -1,0 +1,181 @@
+
+body {
+    font-family: "Titillium Web", sans-serif;
+  }
+  
+.header {
+    background: transparent;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #e0E4EF;
+    }
+
+
+.topnav a {
+    float: left;
+    display: block;
+    background: transparent;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+
+
+.topnav a:hover {
+    background-color: #5bd3c7;
+    color: white;
+    }
+nav {
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+.footer {
+    background: #363755;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+input[type=text], [type=number], [type=email], [type=date], [type=file], textarea, select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit]{
+    width: 100px;
+    background-color: blue;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=reset]{
+    width: 100px;
+    background-color: red;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.table {
+    border-radius: 5px;
+    
+    padding: 20px;
+    width: 50%;
+    border-collapse: collapse;
+    
+    margin: auto;
+}
+h1{
+    text-align: center;
+}
+
+
+.content {
+    background: rgba(0, 0, 0, 0.5); 
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    font-family: "Titillium Web", sans-serif;
+  }
+  
+  .navbar {
+    transition: background-color 0.5s ease;
+  }
+  
+.navbar.navbar-transparent .except_you{
+    margin-left: 0px;
+    margin-right: 80px;
+}
+
+.navbar.navbar-transparent #dropit{
+    font-size: 22px;
+}
+
+.navbar.navbar-transparent #logoo{
+    width: 80px;
+}
+.navbar #logoo{
+    width: 50px;
+}
+
+  .navbar.navbar-transparent {
+    background-color: #00000035 !important;
+    height: 90px;
+  }
+  
+  .navbar.navbar-transparent a {
+    margin-left: 50px;
+    font-weight: 600;
+    color: rgb(249, 249, 249);
+    opacity: 1;
+  }
+  
+  .navbar .white-box {
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    transition: background-color 0.5s ease;
+  }
+  
+  .navbar.navbar-transparent .white-box {
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  
+  .navbar.navbar-transparent .except_you a {
+    color: black;
+  }
+
+
+  .carousel-image {
+    max-height: 400px;
+    object-fit: cover;
+  }
+  

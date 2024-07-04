@@ -1,0 +1,193 @@
+body {
+    font-family: "Titillium Web", sans-serif;
+  }
+  
+  .navbar {
+    transition: background-color 0.5s ease;
+  }
+  
+.navbar.navbar-transparent .except_you{
+    margin-left: 0px;
+    margin-right: 80px;
+}
+
+.navbar.navbar-transparent #dropit{
+    font-size: 22px;
+}
+
+.navbar.navbar-transparent #logoo{
+    width: 80px;
+}
+.navbar #logoo{
+    width: 50px;
+}
+
+  .navbar.navbar-transparent {
+    background-color: #00000035 !important;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.212);
+    height: 90px;
+  }
+  
+  .navbar.navbar-transparent a {
+    margin-left: 50px;
+    font-weight: 600;
+    color: rgb(249, 249, 249);
+    opacity: 1;
+  }
+  
+  .navbar .white-box {
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    transition: background-color 0.5s ease;
+  }
+  
+  .navbar.navbar-transparent .white-box {
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  
+  .navbar.navbar-transparent .except_you a {
+    color: black;
+  }
+  
+  .carousel-inner img {
+    height: 100vh;
+    object-fit: cover;
+  }
+  
+  .carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .carousel-image {
+    max-height: 600px;
+    object-fit: cover;
+  }
+  
+  .carousel-caption {
+    bottom: 160px;
+  }
+  
+  .custom-caption {
+    top: 400px;
+  }
+  
+
+  .container {
+    justify-self: center;
+  }
+  
+
+  #comingcap{
+    position:relative;
+    bottom: 300px;
+    right: 200px;
+    left: 0px;
+}
+
+#cardesc1{
+    
+    position: relative;
+    bottom: 270px;
+    left: 110px;
+    text-align: left;
+    display: inline-block;
+}
+#cardesc2{
+    
+    position: relative;
+    bottom: 270px;
+    left: 160px;
+    text-align: left;
+    display: inline-block;
+}
+#cardesc3{
+    
+    position: relative;
+    bottom: 270px;
+    left: 240px;
+    text-align: left;
+    display: inline-block;
+}
+#intro{
+    color: rgba(0, 0, 0, 0.616);
+    margin: 50px;
+    font-size: 18px;
+    z-index: 1;
+    position: relative;
+    bottom: 350px;
+}
+#intro hr{
+    color: black;
+}
+
+
+.gallery-images {
+  font-family: "Titillium Web", sans-serif;
+  display: flex;
+  justify-content: space-between ;
+}
+
+#box1{
+  position: relative;
+  bottom: 350px;
+}
+#box2{
+  position: relative;
+  bottom: 350px;
+}
+
+#box3{
+  position: relative;
+  bottom: 350px;
+}
+
+#box4{
+  position: relative;
+  bottom: 20px;
+}
+
+#box5{
+  position: relative;
+  bottom: 250px;
+}
+
+#box5 img{
+  position: relative;
+  bottom: 100px;
+  right: 100px;
+  width: 660px;
+}
+
+#box6{
+  position: relative;
+  top: 150px;
+}
+
+#box4 h2{
+  font-weight: 500;
+}
+
+.action-buttons {
+  margin-top: 20px;
+}
+.action-buttons .btn {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.action-buttons .btn i {
+  margin-bottom: 5px;
+  font-size: 24px;
+  display: block;
+}
+
+
+a{
+  text-decoration: none;
+  color: black;
+  font-weight:600;
+  transition: color 0.3s;
+}
