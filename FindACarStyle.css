@@ -1,0 +1,221 @@
+body {
+    font-family: "Titillium Web", sans-serif;
+  }
+  
+  .navbar {
+    transition: background-color 0.5s ease;
+  }
+  
+.navbar.navbar-transparent .except_you{
+    margin-left: 0px;
+    margin-right: 80px;
+}
+
+.navbar.navbar-transparent #dropit{
+    font-size: 22px;
+}
+
+.navbar.navbar-transparent #logoo{
+    width: 80px;
+}
+.navbar #logoo{
+    width: 50px;
+}
+
+  .navbar.navbar-transparent {
+    background-color: #00000035 !important;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.212);
+    height: 90px;
+  }
+  
+  .navbar.navbar-transparent a {
+    margin-left: 50px;
+    font-weight: 600;
+    color: rgb(249, 249, 249);
+    opacity: 1;
+  }
+  
+  .navbar .white-box {
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    transition: background-color 0.5s ease;
+  }
+  
+  .navbar.navbar-transparent .white-box {
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  
+  .navbar.navbar-transparent .except_you a {
+    color: black;
+  }
+  
+  .carousel-inner img {
+    height: 100vh;
+    object-fit: cover;
+  }
+  
+  .carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .withlogo {
+    width: 50px;
+  }
+  
+  .carousel-image {
+    max-height: 400px;
+    object-fit: cover;
+  }
+  
+  .carousel-caption {
+    bottom: 160px;
+  }
+  
+  .custom-caption {
+    top: 400px;
+  }
+  
+
+  .container {
+    justify-self: center;
+  }
+  
+
+#intro{
+    color: rgba(0, 0, 0, 0.616);
+    margin: 50px;
+    font-size: 18px;
+}
+#intro hr{
+    color: black;
+}
+#ELECTRIFY{
+    margin: 50px;
+}
+
+#Modelx img{
+    width: 250px;
+
+}
+
+#BMW8SERIES img{
+  width: 300px;
+  margin-bottom: 15px;
+
+}
+
+#M4COUPE img{
+  width: 380px;
+}
+
+#MAZDA img{
+  width: 290px;
+}
+
+#HONDACRV img{
+  width: 280px;
+}
+
+#HONDACRV{
+  position: relative;
+  margin-left: 15px;
+  right: 200px;
+}
+
+
+#M3CS img{
+  width: 350px;
+}
+
+#BMW-i5 img{
+    width: 325px;
+}
+#BMW-i5{
+    position: relative;
+    bottom: 15px;
+}
+#porsche img{
+    width: 285px;
+    top: 50px;
+}
+#porsche{
+    z-index: 1;
+    bottom: 38px;
+    position:relative;
+}
+
+.gallery-images {
+    font-family: "Titillium Web", sans-serif;
+    display: flex;
+    justify-content: space-between ;
+  }
+  
+
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight:600;
+    transition: color 0.3s;
+}
+
+a:hover{
+    color: rgb(117, 117, 117);
+}
+
+#carname{
+    font-size: 25px;
+}
+
+figcaption{
+    font-size: 17px;
+}
+
+
+#comingcap{
+    position:relative;
+    bottom: 160px;
+}
+
+
+
+
+
+
+
+  .secarousel img {
+    max-height: 400px;
+    object-fit: cover;
+  }
+  
+  .secarousel .carousel-caption {
+    bottom: 50px;
+  }
+  
+  .highlight-section {
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .highlight-section img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .highlight-section .btn {
+    margin-top: 20px;
+  }
+  
+  .highlight-section .icon {
+    font-size: 40px;
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+
+
+ 
+  
